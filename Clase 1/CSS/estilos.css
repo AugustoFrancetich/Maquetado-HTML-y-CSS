@@ -1,0 +1,35 @@
+/* 
+SINTAXIS
+selector{
+    propiedad:valor;
+    propiedad:valor;
+    propiedad:valor;
+}
+*/
+/*selector de tipo o elemento*/
+body{
+    background-color: gray;
+}
+/*selector universal*/
+*{
+    border: 1px solid red;
+}
+/*selector descendiente, toma a las cosas a que esten adentro del nav*/
+nav a{
+    background-color: yellow;
+} 
+/*selector de id-definir atributo id a algun elemento*/
+#noticia1{
+    color: white;
+}
+/*selector de class-definir atributo class a algun elemento*/
+.bordeCyan{
+    border: 5px solid cyan;
+}
+/*selector de grupo elige 2 o mas elementos*/
+p,
+h2{
+    color: brown;
+    font-style: italic;
+    font-family: Impact, fantasy;
+}

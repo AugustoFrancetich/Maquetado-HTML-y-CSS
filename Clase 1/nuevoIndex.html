@@ -1,0 +1,78 @@
+<!-- en emmet pones header>div.coso      cheat sheet hace una pagina de trucos para html y css
+    <header>
+        <div class="coso"></div>
+    </header>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clase 1 maquetado</title>
+    <meta name="description" content="Etiquetas semanticas de HTML5 y propiedades CSS">
+
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    <header>
+        <h1> <!-- esto es h1 porque tiewne el titulo de la pagina y a partir de aca se puede empezar a bajar-->
+           <a href="nuevoIndex.html">
+        <img src="ejercicio-clase1/img/logo-nyt.png" alt="logo nyt, link a la pagina de inicio" class="bordeCyan">
+        </a> 
+        </h1>
+        <time>21 de junio - 11</time>
+    </header>
+     <!--<hr> se usa para cambio de contenido, sino se usa css-->
+    <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+    </nav>
+    <main>
+        <section id="noticia1">
+            <article>
+                <figure>
+                    <img src="ejercicio-clase1/img/principal1.png" alt="Noticia 1" class="bordeCyan">
+                    <figcaption>JORGE ADORNO | REUTERS</figcaption>
+                </figure>
+                <h2>comentario</h2>
+                <h3>Paraguay la isla rodeada de tierra</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, consequuntur illum! Earum natus quaerat nemo est enim sint totam dicta corporis id magni, vel maiores mollitia itaque omnis, porro illo.</p> <!-- lorem crea un texto para preveer como es la apgina-->
+            </article>
+        </section>
+        <section>
+            <header>
+                <h2>Lo mas reciente</h2>
+                <form action="">
+                    <input sype="search" name="busqueda" placeholder="busqueda"> <!--input para crear la barra de busqueda name para nombrarla busqueda y placeholder para que ponga lo que quiera en la barra -->
+                </form>
+            </header>
+            <article>
+                <time>21 de junio - 11</time>
+                        <figure>
+                            <img src="ejercicio-clase1/img/principal4.png" alt="Noticia 4" class="bordeCyan">
+                            <figcaption>Futbol - Barcelona</figcaption>
+                        </figure>
+                        <h2>comentario</h2>
+                        <h3>Paraguay la isla rodeada de tierra</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, consequuntur illum! Earum natus quaerat nemo est enim sint totam dicta corporis id magni, vel maiores mollitia itaque omnis, porro illo.</p>
+            </article>
+            <aside>
+                <img src="ejercicio-clase1/img/boletin.png" alt="Aside">
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <img src="ejercicio-clase1/img/logo-nyt.png" alt="">
+        <div>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </div>
+    </footer><!-- con el footer>img+a*5 anido esas 6 cosas dentro del footer-->
+</body>
+</html>
