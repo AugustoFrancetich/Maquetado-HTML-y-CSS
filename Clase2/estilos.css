@@ -1,0 +1,39 @@
+/*Etiqueta en linea
+ancho de la caja contenedor=contenido*/
+a{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+/*Etiqueta en bloque
+ancho de caja de ocntenido=espacio disponible*/
+h1{
+    background-color: cyan;
+    width: 300px;
+    height: 100px;
+    display: block;
+}
+/*elementos in line-block*/
+textarea{
+    width: 300px;
+    height: 100px;
+}
+h2{
+    background-color: red;
+    color: white;
+    border: 5px solid black;
+    width: 60%;
+    max-width: 1280px;
+    min-width: 800px;
+}
+/*el tamaño base es 16 px
+y con el em no cambia porque 1 em es equivalente a 16 px
+lo normal para la etiqueta p y hace referencia al contenedor base, por eso 
+se usa rem que toma el valor que tiene el html*/
+p{
+    font-size: 32px;
+    width: 10rem;
+    background-color: pink;
+}
+

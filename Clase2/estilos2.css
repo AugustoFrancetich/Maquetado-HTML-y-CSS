@@ -1,0 +1,39 @@
+/*@import url(normalize.css); esta es mas lenta pero se puede hacer de ambas maneras*/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    /*siempre se tiene que reestablecer para tener control total sobre la pagina*/
+}
+.padre{
+    width: 600px;
+    background-color: gray;
+}
+.hijo1,
+.hijo2,
+.hijo3{
+    width: 200px;
+    height: 300px;
+    background-color: cyan;
+    /*definiciones d elos border
+    border-style: solid;
+    border-color: red;
+    border-width: .5em;
+    Shorthand es la que admite mas de una definicion en una misma linea*/
+    border: 5px solid red;
+    /*palabras de posicion se puede cambiar los valores de los bordes*/
+    border-top-style: dotted;
+    border-bottom-style: dashed;
+    /*padding= espacio interno del contenedor
+    padding-top: 30px;
+    padding-left: 50px;
+    tambien tiene shorthand*/
+    padding: 20px;
+    /*y si tiene 2 valores los reparte de los primero  es arrib a y abajo y el segundo es izq y derecha
+    y si tenemos 3 valores el primero es arriba el segundo son izq y derecha y el tercero abajo
+    y si tenemos abajo son arriba derecha abajo izq*/
+    margin: 20px;
+    /*outline: tiene los mismos promedios de border y es poner un borde sobre el borde*/
+    outline: 5px solid yellow;
+    
+}

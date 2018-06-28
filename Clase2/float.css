@@ -1,0 +1,37 @@
+.padre{
+    width: 600px;
+    background-color: gray;
+    /*solo se centra si es elemento en bloque*/
+    margin: 0 auto;
+
+}
+.hijo1{
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-color: yellow;
+}
+.hijo2{
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-color: red;
+}
+.hijo3{
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-color: blue;
+}
+.padre2{
+    width: 800px;
+    height: 300px;
+    background-color: pink;
+    background-image: url(../IMG/corro.jpg);
+}
+.clearfix::after,
+.clearfix::before{
+    content:"";
+    clear: both;
+    display: table;
+}
