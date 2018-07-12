@@ -1,0 +1,29 @@
+body{
+    	margin: 0;
+    }
+		.padre{
+			display: flex;
+			justify-content:flex-; 
+		}
+		.padre div{
+         width:200px;
+         height:200px;
+          
+		}
+		.menu {
+			display: flex;
+			justify-content: space-between;
+			background-color: #64b5f6;
+			width: 80%;
+			padding: 0 10%;
+			
+        }
+		.lista{
+			display: flex;
+			list-style: none;
+			margin-left: 20px;
+		}
+		.lista{
+            margin-left: 20px;
+            font-size: 26px;
+		}

@@ -1,0 +1,151 @@
+.padre{
+			display: flex;
+			justify-content: space-evenly;
+			/*
+			flex-start
+			flex-end
+			center
+
+			space-around
+			space-evenly
+			space-between
+			*/
+		}
+		.padre div{
+			width: 200px;
+			height: 200px;
+			background-color: red;
+		}
+
+/*Menu*/
+body{
+	margin: 0;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+	background-color: #64b5f6;
+	width: 80%;
+	padding: 0 10%;
+	align-items: center;
+	/*
+	flex-start
+	flex-end
+	*/
+}
+.lista{
+	display: flex;
+	list-style: none;
+}
+.lista li{
+	/*
+	margin-left: 20px;
+	*/
+	padding:  18px 22px;
+	font-size: 26px;
+}
+.lista li:hover{
+	color: blue;
+	font-family: 'Courier New', Courier, monospace;
+	background-color: rgba(255, 255, 255, 0.2)
+}
+.lista :first-child::first-letter{
+	color: red;
+}
+.lista :first-child:hover{
+	color: yellow;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.logo{
+	height: 110px;
+	padding: 10px 0;
+}
+
+/*slide*/
+.slide{
+	display: flex;
+	width: 80%;
+	padding: 0 10%;
+}
+.slide div{
+	width: 50%;
+}
+.slide h1, .slide p{
+	text-align: center;
+}
+
+/*
+.seudo :last-child{
+	color: red;
+}
+*/
+
+.seudo p:hover{
+	color: blue;
+}
+
+/* cuando ya fue visitado el link en esta navegacion*/
+a:visited{
+	color:maroon;
+}
+/* */
+a:link{
+	color:yellow;
+}
+a:active{
+	color: blanchedalmond;
+}
+a:hover{
+	color: blue;
+}
+
+
+
+/* siempre la primera letra de un color*/
+.seudo p::first-letter{
+	color:green;
+}
+
+.seudo p::first-line{
+	color: red;
+}
+
+/* mientras estemos haciendo foco en ese texto se pone del color que se informa.*/
+.input:focus{
+	background-color: red;
+}
+
+.imagen{
+	height: 100px;
+}
+
+/* seccion de datos*/
+
+.seccion {
+	display: flex;
+	justify-content: space-around;
+	align-items:center;
+}
+figure {
+	text-align: center;
+	align-content: center;
+}
+
+.seccion figure{
+	align-content: center;
+}
+.seccion figcaption{
+	font-size: 10px;
+}
+.seccion p{
+	text-align: center;
+	font-size: 14px;
+}
+
+.seccion :hover{
+	color: red;
+	background-color: aqua;
+}
