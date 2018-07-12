@@ -1,0 +1,99 @@
+body{
+    counter-reset: menuli;
+}
+/*
+.parrafo{
+    counter-increment: parrafo;
+}
+*/
+/*
+.parrafo::after{
+    content: "hola";
+}
+*/
+.menuli{
+    counter-increment: menuli;
+}
+.menuli::before{
+    content: "Menu " counter(menuli); /* el counter increment se utiliza para incrementar un contador de algo, y va dentro de befor o after*/
+}
+
+.lista{
+    /*list-style: upper-alpha;*/
+    list-style: none;
+    list-style-image: -webkit-gradient(upper-alpha);
+}
+/*
+lista2{
+    counter-increment: lista2;
+}
+*/
+li{
+    list-style: none;
+}
+.padre{
+    display: flex;
+	justify-content: space-between;
+	background-color: #64b5f6;
+	width: 80%;
+	padding: 0 10%;
+}
+.padre > li {
+    float: left;
+    min-width: 15%;
+    list-style: none;
+}
+.padre li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+    font-size-adjust: inherit;
+}
+
+.padre li a:hover {
+    background-color:#434343;
+}
+
+.padre li ul {
+    display:none;
+    position:absolute;
+    min-width:15%;
+}
+
+.padre li:hover{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+	background-color: rgba(255, 255, 255, 0.2)
+}
+
+.padre ul{
+    display:none;
+    position:absolute;
+    min-width:15%;
+}
+.padre li ul {
+    display:none;
+    position:absolute;
+    min-width:15%;
+}
+
+.padre li:hover > ul {
+    display:block;
+}
+
+.padre li ul li {
+    position:relative;
+    background-color:#434343;
+}
+
+.padre li ul li ul {
+    right:-15%;
+    top:0px;
+}
+
+.subMenu{
+    list-style: square;
+}
