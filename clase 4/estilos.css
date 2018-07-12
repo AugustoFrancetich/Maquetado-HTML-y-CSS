@@ -1,0 +1,77 @@
+/*.body{
+    counter-reset: parrafo;
+}
+
+p{
+    counter-increment: parrafo;
+}
+
+.parrafo:after{
+    content: counter(parrafo);
+}
+
+.listas{
+    list-style: lower-alpha; /* cabia letra lo mismo con upper alpha y con none se elimina el puntito
+    list-style: image(/*inserte el url de la imagen);
+    list-style-position: inside;
+}
+
+*/
+.menu{
+    display: flex;
+	justify-content: space-between;
+    background-color: darksalmon;
+	width: 100%;
+    /*padding: 2% 2%;*/
+	align-items: center;
+}
+
+.logo{
+    width: 63px;
+    height: 63px;
+}
+.lista{
+    display: flex;
+    list-style: none;
+}
+
+.lista a{
+    padding: 6px;
+    color: black;
+}
+
+.lista a:hover{
+    color: saddlebrown;
+    
+}
+.titulo{
+    margin-left: 20px;
+    color: chocolate;
+}
+.fondo{
+    background-color: tan ;
+}
+
+.costado{
+   width: 30%;
+   background-color: chocolate;
+
+}
+.imagen{
+    height: 50px;
+    width: 50px;
+}
+.seccion {
+	display: flex;
+	justify-content: space-around;
+	align-items:center;
+}
+.iconos
+{
+    width: 30px;
+    height: 30px;
+}
+.sprite{
+    display: flex;
+    justify-content: center;
+}
