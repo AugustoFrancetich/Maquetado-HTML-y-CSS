@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+.menu{
+	display: flex;	
+	justify-content: center;
+}
+.ul{
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	-webkit-padding-start: 0;
+	width: 70%;
+}
+.menu ul li{
+	font-size: 30px;
+	padding: 10px 20px;
+	border: 1px solid black;
+}
+.sub{
+	display: none;
+	position: absolute;
+	list-style: none;
+	-webkit-padding-start: 0;
+}
+.drop:hover .sub{
+	display: block;
+}
+
+
+	</style>
+</head>
+<body>
+	<header>
+		<nav class="menu">
+			<ul class="ul">
+				<li>link1</li>
+				<li>link2</li>
+				<div class="drop">
+					<li>link3</li>
+					<ul class="sub">
+						<li>sublink</li>
+						<li>sublink</li>
+						<li>sublink</li>
+					</ul>
+				</div>
+				<li>link4</li>
+			</ul>
+		</nav>
+	</header>
+</body>
+</html>

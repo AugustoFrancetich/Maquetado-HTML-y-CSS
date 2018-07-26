@@ -1,0 +1,51 @@
+.navegacion{
+    display: flex;
+    background-color: orange;
+    height: 50px;
+    
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+
+.ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    -webkit-padding-start: 0;
+    width: 70%;
+}
+
+.menu ul li{
+    font-size: 14px;
+    padding: 15px 50px;
+    border: 1px solid black;
+
+}
+.sub{
+    position: absolute;
+    display: none;
+    -webkit-padding-start: 0;
+    list-style: none;
+}
+.drop:hover + .sub{
+    display: block;
+}
+/*.tabla{
+    width: 100%;
+}
+.tabla td{
+    background-color: red;
+}
+.tabla img{
+    width: 100%;
+}
+.imagen{
+    width: 300px;
+}*/
+
+.tabla{
+    background-color: red;
+}
