@@ -1,0 +1,35 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu il{
+    margin-left: 20px;
+    font-size: 22px;
+    padding: 8px, 16px;
+    border: 1px solid black;
+}
+.imagen{
+    height: 100px;
+    width: 200px;
+}
+@media screen and (max-width: 800px){ /* esto pone de ocndicion que cuando es menor a tantos px se pone de ese color o la accion que hayas elegido, el screen es para lo que se ve, el print es para cuando algui9en imprime*/
+        .menu il{
+            background-color: aquamarine;
+        }
+}
+@media screen and (max-width: 400px){ /*se puede poner min para que4 se vaya adaptando mejor*/
+    .menu il{
+        background-color: red;
+    }
+}
+@media screen and (max-width: 300px){
+    .menu il{
+        background-color: black;
+    }
+}
+
